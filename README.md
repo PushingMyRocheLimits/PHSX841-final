@@ -3,6 +3,8 @@
 ## Digital Twin of an Electromagnetic and Hadronic Calorimeter
 
 ## Or... Little Tikes: My First Calorimeter
+<img width="1500" height="1500" alt="image" src="https://github.com/user-attachments/assets/9a21485d-6d7b-4567-a9c0-d000bd1bd83c" />
+
 ---
 ### Running the code:
 1) The code is written in Python, so be sure you have an up to date installion of it
@@ -25,4 +27,6 @@
 - Calorimeter: sampling fraction, noise sigma, shaping tau in `SamplingCalorimeter`
 ---
 ### Stuff to be added
-- TBA
+- Implement Molière multiple scattering & lateral profile (Highland formula) to get realistic transverse shower RMS.
+- Implement calibration and energy resolution study: run many primaries and compute reconstructed energy distributions and fit resolution vs E.
+- Add multi-threading or vectorized stepping to speed large-statistics runs (so it don't murder yer 'puter)
