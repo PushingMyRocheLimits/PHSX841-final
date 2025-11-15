@@ -12,7 +12,7 @@
 	+ `matplotlib`, `scipy`, `numpy`, `PyQt6`
 	+ e.g.  `>> pip install scipy	`
 	
-3) Download the files from the GitHub repo and put the package files into a folder on your `PYTHONPATH` (or run it from project folder)
+3) Clone the repo: `git clone https://github.com/PushingMyRocheLimits/PHSX841-final.git`
 4) Move into the folder containing the project (`cd ~/PHSX841-final/`)
 5) Open a terminal and run the example script:
 	+ `>> python run_example.py`
